@@ -6,6 +6,7 @@ console.log("-------------")
 console.log(2*2)
 console.log(4*4)
 console.log(2>1<1)
+console.log("-------------")
 console.log(7<=1)
 console.log(3+4)
 console.log(3*5/2)
@@ -24,6 +25,27 @@ console.log(a||b)
 console.log(b||c)
 console.log(a||c)
 console.log(a||b||c)
+console.log("-------------")
+const nome = prompt ("Qual é seu nome?")
+const datanascimento = Number(prompt("Qua é sua data de nascimento"))
+const idade = Number(prompt("Qua é sua idade"))
+const idade2050 = 2050 - datanascimento
+condicao = idade > 18 
+
+console.log("Nome é:",nome)
+console.log("Sua Idade é",idade)
+console.log("Sua idade em 2050 será:", idade2050)
+console.log("Voce é maior de idade",condicao)
+
+
+
+
+
+
+
+
+
+
 
 
 
