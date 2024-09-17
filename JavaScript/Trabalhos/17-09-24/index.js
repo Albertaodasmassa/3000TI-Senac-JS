@@ -27,15 +27,17 @@ console.log(a||c)
 console.log(a||b||c)
 console.log("-------------")
 const nome = prompt ("Qual é seu nome?")
-const datanascimento = Number(prompt("Qua é sua data de nascimento"))
-const idade = Number(prompt("Qua é sua idade"))
+let datanascimento = Number(prompt("Ano de Nascimento"))
+let anoatual = Number(prompt("Qual é o ano atual"))
+let idade = anoatual - datanascimento
 const idade2050 = 2050 - datanascimento
-condicao = idade > 18 
+condicao = datanascimento > 18 
 
-console.log("Nome é:",nome)
+console.log("Nome é:", nome)
 console.log("Sua Idade é",idade)
 console.log("Sua idade em 2050 será:", idade2050)
 console.log("Voce é maior de idade",condicao)
+
 
 
 
