@@ -5,4 +5,4 @@ const soma = primeiroNumero + segundoNumero
 
 console.log(soma)
 
-// no console será escrito a soma dos numeros primeiro + segundo
+// no console será escrito a soma dos numeros primeiro + segundo porem vai contatenar teria que converter para number. 
