@@ -17,3 +17,4 @@ print('A soma toda das variaveis foi: {:.1f}'.format(soma))
 print('Aprovado' if soma>=10 else 'Reprovado')
 
 
+2
