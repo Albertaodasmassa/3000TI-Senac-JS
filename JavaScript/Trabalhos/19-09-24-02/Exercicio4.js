@@ -9,8 +9,6 @@ console.log("Essas São minhas comidas preferidas:  "+arrays[1])
 console.log("Essas São minhas comidas preferidas:  "+arrays[2])
 console.log("Essas São minhas comidas preferidas:  "+arrays[3])
 console.log("Essas São minhas comidas preferidas:  "+arrays[4])
-console.log("Essas São minhas comidas preferidas:  "+arrays[5])
-
 
 console.log(array2)
 console.log(comidas)
