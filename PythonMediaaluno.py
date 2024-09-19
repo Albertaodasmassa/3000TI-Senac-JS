@@ -1,8 +1,8 @@
 Nome = input("Qual é seu nome?")
 Idade = input("Qual e sua Idade")
-nota1 = input(Float("Por favor insira a sua nota1:"))
-nota2 = input(Float("Por Favor Insira a sua nota2:"))
-nota3 = input(Float("Por Favor Insira a sua nota3:"))
+nota1 = float(input("Por favor insira a sua nota1:"))
+nota2 = float(input("Por Favor Insira a sua nota2:"))
+nota3 = float(input("Por Favor Insira a sua nota3:"))
 
 somatotal = (nota1+nota2+nota3)/3
 
