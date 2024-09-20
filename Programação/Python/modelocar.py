@@ -1,6 +1,5 @@
 Nome = input('Por Favor Insira seu nome:')
 Idade = float((input)('Por favor insira sua idade:'))
-Modelocarro = input('Por favor insira o modelo do carro:')
 
 print('Bem vindo ao sistema: ', Nome)
 print("Sua Idade é", Idade)
