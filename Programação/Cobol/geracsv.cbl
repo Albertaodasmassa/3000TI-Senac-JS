@@ -4,7 +4,7 @@
        INPUT-OUTPUT SECTION.
        FILE-CONTROL.
        SELECT ARQCSV ASSIGN TO 
-       'C:\Users\paodemedoX\Desktop\Projetos-Trabalhos-2024\ARQCSV.CSV'
+       'C:\Users\\Desktop\Projetos-Trabalhos-2024\ARQCSV.CSV'
        ORGANIZATION IS LINE SEQUENTIAL.
        DATA DIVISION.
        FILE SECTION.
