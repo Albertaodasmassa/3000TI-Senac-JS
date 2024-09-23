@@ -7,4 +7,3 @@ function calculo(){
     
 }
 let somatotal2 = calculo()
-calculo()
