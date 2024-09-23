@@ -1,11 +1,11 @@
 function arrays(){
-    let array = number(promt("Por favor digite um numero"))
-    let array2 = number(promt("Por favor digite um numero"))
-    let arra3 = number(promt("Por favor digite um numero"))
-    let array4 = number(promt("Por favor digite um numero"))
-    let array5 = number(promt("Por favor digite um numero"))
+    let array = Number(prompt("Por favor digite um numero"))
+    let array2 = Number(prompt("Por favor digite um numero"))
+    let array3 = Number(prompt("Por favor digite um numero"))
+    let array4 = Number(prompt("Por favor digite um numero"))
+    let array5 = Number(prompt("Por favor digite um numero"))
     let mestre = []
-    array.push(7,8)
-    
+    mestre.push(array,array2,array3,array4,array5)
+    console.log("O valor é e esse:",mestre)
 }
 arrays()
