@@ -6,4 +6,5 @@ function calculo(){
     return somatotal
     
 }
+let somatotal2 = calculo()
 calculo()
