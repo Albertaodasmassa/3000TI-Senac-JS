@@ -7,4 +7,4 @@ function soma(array){
     return array2
 }
 
-array(array)
+soma(array)
