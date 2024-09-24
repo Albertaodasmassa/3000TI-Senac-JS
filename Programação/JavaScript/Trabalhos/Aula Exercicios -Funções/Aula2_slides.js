@@ -1,11 +1,10 @@
-function nome(){
-   let nome = prompt("Por favor digite o seu nome: ")
-    console.log(`Seu nome é ${nome}`)
+function nome(usuario){
+    console.log(`Seu nome é ${usuario}`)
     
     
 }
-nome(nome.nome)
-nome(nome.nome)
-nome(nome.nome)
+nome("Joao")
+nome("Pedro")
+nome("Antonio")
 
 
