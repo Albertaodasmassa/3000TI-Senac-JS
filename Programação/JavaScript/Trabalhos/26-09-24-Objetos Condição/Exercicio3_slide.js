@@ -14,4 +14,5 @@ console.log(filme["elenco"])
 console.log(filme["visto"])
 filme.personagem = "Morphi,Kooper"
 console.log(filme.elenco+filme.personagem)
-
+filme.elenco.push(0)
+console.log(filme.elenco)
