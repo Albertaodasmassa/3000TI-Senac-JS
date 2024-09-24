@@ -28,11 +28,11 @@ console.log(verifica2)
 const frase = "Ola mundo"
 function frase2(frase){
     let verifica = frase 
-    let verifica2 = frase.toLowerCase
-    return verifica
+    let verifica2 = frase.toUpperCase()
+    console.log(frase2.legth)
+    console.log(verifica2)
     
 }
-let verifica3 = (frase)
-console.log(frase2.legth)
+console.log(frase2(frase))
 
 
