@@ -24,3 +24,15 @@ function calculo3(n5){
 let verifica2 = calculo3(7)
 console.log(verifica2)
 
+//Letra D
+const frase = "Ola mundo"
+function frase2(frase){
+    let verifica = frase 
+    let verifica2 = frase.toLowerCase
+    return verifica
+    
+}
+let verifica3 = (frase)
+console.log(frase2.legth)
+
+
