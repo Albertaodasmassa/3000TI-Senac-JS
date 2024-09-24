@@ -25,7 +25,6 @@ let verifica2 = calculo3(7)
 console.log(verifica2)
 
 //Letra D
-//Letra D
 const frase = "Ola mundo"
 function frase2(frase){
     const verifica = frase.toUpperCase()
