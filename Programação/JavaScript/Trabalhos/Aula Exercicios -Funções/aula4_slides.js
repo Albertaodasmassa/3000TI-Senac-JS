@@ -6,3 +6,5 @@ function soma(array){
     array2.push(a,b)
     return array2
 }
+
+array(array)
