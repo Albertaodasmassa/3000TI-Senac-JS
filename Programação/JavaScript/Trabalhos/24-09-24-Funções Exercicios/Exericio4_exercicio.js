@@ -29,10 +29,11 @@ const frase = "Ola mundo"
 function frase2(frase){
     let verifica = frase 
     let verifica2 = frase.toUpperCase()
-    console.log(frase.legth)
+    console.log(frase.length)
     console.log(verifica2)
     
 }
 console.log(frase2(frase))
+
 
 
