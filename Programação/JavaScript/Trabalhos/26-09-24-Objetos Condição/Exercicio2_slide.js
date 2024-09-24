@@ -1,8 +1,7 @@
 const pessoa = {
-    nome : 'Pedro',
+    nome : "Pedro",
     idade : 20,
-    genero : 'M',
-    generomus : 'Rock',
+    generomus : "Rock",
+   
 }
-
-console.log()
+console.log(pessoa.nome)
