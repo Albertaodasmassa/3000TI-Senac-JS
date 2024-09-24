@@ -25,15 +25,14 @@ let verifica2 = calculo3(7)
 console.log(verifica2)
 
 //Letra D
+//Letra D
 const frase = "Ola mundo"
 function frase2(frase){
-    let verifica = frase 
-    let verifica2 = frase.toUpperCase()
+    const verifica = frase.toUpperCase()
     console.log(frase.length)
-    console.log(verifica2)
-    
+    console.log(verifica)
 }
-console.log(frase2(frase))
+frase2(frase)
 
 
 
