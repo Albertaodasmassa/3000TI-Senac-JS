@@ -16,5 +16,11 @@ let verifica = calculo2(4,7)
 console.log(verifica)
 
 //Letra C
-
+function calculo3(n5){
+    let verifica = n5 %2
+    let verifica3 = verifica ===0 
+    return verifica3
+}
+let verifica2 = calculo3(7)
+console.log(verifica2)
 
