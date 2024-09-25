@@ -8,15 +8,23 @@ infopessoa = pessoa
 
 }
 const pessoa2 = {
-    cont cpnome = [...nome]
-    cont cpidade = [...idade]
+    ...pessoa,
+    const cpnome = [...nome]
+    const cpidade = [...idade]
+    const cpgeneromus =[...generomus]
+
 }
-function pessoas2(comidas){
+function pessoas3(comidas){
 infopessoa = pessoa
 
 }
-
-
+const amigo3 ={
+    nome : "Joao",
+    idade : 23,
+}
+function pessoa4(comidas2){
+infopessoa2=amigo3
+}
 
 
 
