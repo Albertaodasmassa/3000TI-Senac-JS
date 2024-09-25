@@ -14,5 +14,6 @@ console.log(filme["elenco"])
 console.log(filme["visto"])
 filme.personagem = "Morphi,Kooper"
 console.log(filme.elenco+filme.personagem)
-filmenovo = filme.elenco.splice[0]
+filme.elenco[0]="xuxa"
 console.log(filme.elenco)
+
