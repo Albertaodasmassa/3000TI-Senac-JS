@@ -12,12 +12,11 @@ console.log(filme.direcao)
 console.log(filme["lancamento"])
 console.log(filme["elenco"])
 console.log(filme["visto"])
-filme.personagem = "Morphi,Kooper"
-console.log(filme.elenco+filme.personagem)
+filme.personagem = ["Morphi","Kooper"]
+console.log(filme.elenco[0],"Interpreta",filme.personagem[0])
 filme.elenco[0]="xuxa"
 console.log(filme.nome)
 console.log(filme.direcao)
 console.log(filme["lancamento"])
 console.log(filme["elenco"])
 console.log(filme["visto"])
-
