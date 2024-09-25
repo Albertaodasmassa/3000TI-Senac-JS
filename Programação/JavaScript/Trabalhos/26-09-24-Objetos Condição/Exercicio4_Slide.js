@@ -17,4 +17,4 @@ amigo:{
 }
 
 
-console.log("O nome da pessoa é",pessoa2.nome,"e suas comidas preferidas são",pessoa2.comidas,"e","Seu melhor amigo se chama",pessoa2.amigo.nome,"e tem Anos",pessoa2.amigo.idade)
+console.log("O nome da pessoa é",pessoa2.nome,"e suas comidas preferidas são",pessoa2.comidas[0],"e",pessoa2.comidas[1],".","Seu melhor amigo se chama",pessoa2.amigo.nome,"e tem Anos",pessoa2.amigo.idade)
