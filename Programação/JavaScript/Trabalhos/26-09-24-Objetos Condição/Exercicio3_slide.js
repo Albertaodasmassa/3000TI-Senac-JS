@@ -14,6 +14,7 @@ console.log(filme["elenco"])
 console.log(filme["visto"])
 filme.personagem = ["Morphi","Kooper"]
 console.log(filme.elenco[0],"Interpreta",filme.personagem[0])
+console.log(filme.elenco[1],"Interpreta",filme.personagem[1])
 filme.elenco[0]="xuxa"
 console.log(filme.nome)
 console.log(filme.direcao)
