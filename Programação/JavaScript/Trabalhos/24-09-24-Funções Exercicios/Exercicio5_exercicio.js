@@ -23,11 +23,11 @@ return res5
 let res6 = dif(n1,n2)
 console.log("Diferença é:",res6)
 
-function mult(){
+function div(){
     res7=n1/n2
     return res7
 }
-let res8 = mult(n1.n2)
-console.log("A multiplicação é:",res8)
+let res8 = div(n1.n2)
+console.log("A Divisão é:",res8)
 
 
