@@ -9,9 +9,25 @@ return res
 let res2 = soma(n1,n2)
 console.log("O Resultado é:",res2)
 
-function div(n1,n2){
+function mult(n1,n2){
 res3 = n1*n2
 return res3
 }
-let res4 = div(n1,n2)
-console.log("Divisão:",res)
+let res4 = mult(n1,n2)
+console.log("Multiplicação:",res4)
+
+function dif(){
+res5=n1-n2
+return res5
+}
+let res6 = dif(n1,n2)
+console.log("Diferença é:",res6)
+
+function mult(){
+    res7=n1/n2
+    return res7
+}
+let res8 = mult(n1.n2)
+console.log("A multiplicação é:",res8)
+
+
