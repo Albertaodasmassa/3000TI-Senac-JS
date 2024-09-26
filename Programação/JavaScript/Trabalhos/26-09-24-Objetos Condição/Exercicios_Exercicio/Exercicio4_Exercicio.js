@@ -7,4 +7,4 @@ const pessoa = {
    apelidos: ["Sidão", "Albertão", "Sidoso"]
 }
 
-console.log("Eu sou", pessoa.nome, "mas pode me chamar de:",pessoa.apelidos[0],pessoa.apelidos[1],pessoas.apelidos[2])
+console.log("Eu sou", pessoa.nome, "mas pode me chamar de:",pessoa.apelidos[0],pessoa.apelidos[1],pessoa.apelidos[2])
