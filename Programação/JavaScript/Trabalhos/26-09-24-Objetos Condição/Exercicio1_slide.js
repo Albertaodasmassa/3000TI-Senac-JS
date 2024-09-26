@@ -3,7 +3,7 @@ const filme = {
     direcao: 'Nolan',
     lancamento : 2014,
     elenco : ['Matthew','Anne','Matt'],
-    visto : 'Assistido',
+    visto : true
 
 
 
