@@ -15,11 +15,13 @@ const sacolao3={
     
 }
 function receb(sacolao,sacolao2,sacolao3){
-   carrinho.push[0]=nome.sacolao
-    res =[sacolao.nome,sacolao.disponibilidade]
-    res2=[sacolao2.nome,sacolao2.disponibilidade]
-    res3=[sacolao3.nome,sacolao3.disponibilidade]
-}
+   carrinho.push(sacolao)
+   carrinho.push(sacolao2)
+   carrinho.push(sacolao3)
+   console.log(carrinho)
+   return carrinho
 
-console.log(receb(sacolao.nome))
-console.log()
+}
+receb(sacolao,sacolao2,sacolao3)
+
+
