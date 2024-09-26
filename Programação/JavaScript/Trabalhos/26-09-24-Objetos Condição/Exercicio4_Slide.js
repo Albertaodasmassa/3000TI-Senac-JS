@@ -4,7 +4,6 @@ const pessoa = {
     generomus : "Rock",
 }
 function pessoas2(comidas){
-infopessoa = pessoa
 
 }
 const pessoa2 = {
