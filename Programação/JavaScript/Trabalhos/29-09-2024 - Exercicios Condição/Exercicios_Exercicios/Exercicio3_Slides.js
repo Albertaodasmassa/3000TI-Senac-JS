@@ -1,8 +1,8 @@
 function dif(num1,num2){
     if(num1>num2){
-    console.log("O Numero digitado e Maior: ")
+    console.log("O Numero e Maior: ")
     }else if(num1<num2) {
-   console.log("O Numero e Menor que:")
+   console.log("O Numero e Menor:")
     }else {
     console.log("Os Numeros são iguais")
 }
