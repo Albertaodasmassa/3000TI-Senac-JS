@@ -1,7 +1,13 @@
-const idade = Number(prompt("Qual sua idade?"))
+let turno  = prompt("Por favor digite O seu turno M/V/N: ")
+let M = "matutino"
+let N = "Noturno"
+let V = "Vespertino"
 
-if(idade>18){
-    console.log("Você pode dirigir")
+if(turno === M){
+    console.log("Seu turno é Matutino ")
+}else if(turno !==M){
+   console.log("Seu turno é Vespertino")
 }else{
-    console.log("Você não pode dirigir")
+  console.log("Seu turno é Noturno ")
 }
+
