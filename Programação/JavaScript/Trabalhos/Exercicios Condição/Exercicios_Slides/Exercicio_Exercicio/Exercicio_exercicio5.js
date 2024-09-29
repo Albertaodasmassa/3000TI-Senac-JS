@@ -1,7 +1,7 @@
 let turno  = prompt("Por favor digite O seu turno M/V/N: ")
-let Mat = "matutino"
-let Not = "Noturno"
-let ves = "Vespertino"
+let Mat = "M"
+let Not = "N"
+let ves = "V"
 
 if(turno === Mat){
     console.log("Bom dia seu turno é Matutino ")
@@ -10,4 +10,3 @@ if(turno === Mat){
 }else{
   console.log("Boa noite seu turno é Noturno ")
 }
-
