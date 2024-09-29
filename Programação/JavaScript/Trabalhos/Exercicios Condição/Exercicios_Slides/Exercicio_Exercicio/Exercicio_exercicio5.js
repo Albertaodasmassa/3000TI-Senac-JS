@@ -4,10 +4,10 @@ let N = "Noturno"
 let V = "Vespertino"
 
 if(turno === M){
-    console.log("Seu turno é Matutino ")
-}else if(turno !==M){
-   console.log("Seu turno é Vespertino")
+    console.log("Bom dia seu turno é Matutino ")
+}else if(turno ===V){
+   console.log("Boa Tarde seu turno é Vespertino")
 }else{
-  console.log("Seu turno é Noturno ")
+  console.log("Boa noite seu turno é Noturno ")
 }
 
