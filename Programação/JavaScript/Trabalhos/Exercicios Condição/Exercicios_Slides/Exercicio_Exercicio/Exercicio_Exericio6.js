@@ -1,14 +1,14 @@
 let turno  = prompt("Por favor digite O seu turno M/V/N: ")
 
-case(turno){
+switch(turno){
     case 'M':
-    console.log('Bom dia ,Matutino')
+    console.log('Bom dia!')
     break
     case 'N':
-    console.log('Bulbasauro')
+    console.log('Boa noite!')
     break
     case 'V':
-    console.log('Bulbasauro')
+    console.log('Boa tarde')
     break
     default:
     console.log('Turno Não encontrado!')
