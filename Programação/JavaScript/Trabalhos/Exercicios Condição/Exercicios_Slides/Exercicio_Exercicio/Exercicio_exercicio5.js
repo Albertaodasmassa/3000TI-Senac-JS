@@ -5,7 +5,7 @@ let ves = "V"
 
 if(turno === Mat){
     console.log("Bom dia seu turno é Matutino ")
-}else if(turno === Not){
+}else if(turno === ves){
    console.log("Boa Tarde seu turno é Vespertino")
 }else{
   console.log("Boa noite seu turno é Noturno ")
