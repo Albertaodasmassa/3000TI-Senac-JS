@@ -1,13 +1,13 @@
-let pok = prompt("Por Favor Selecione o tipo de pokemon:")
+let pok = prompt("Por Favor Selecione o pokemon:")
 switch(pok){
-    case 'Planta e Veneno':
-    console.log('Bulbasauro')
+    case 'Bulbasauro':
+    console.log('Planta e Veneno')
     break
-    case 'Fogo':
-    console.log('Charmander')
+    case 'Charmander':
+    console.log('Fogo')
     break
-    case 'Agua':
-    console.log('Squirtle')
+    case 'Squirtle':
+    console.log('Agua')
     break
     default:
     console.log('Tipo de Pokemon não encontrado:')
