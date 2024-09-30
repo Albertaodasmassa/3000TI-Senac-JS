@@ -1,7 +1,7 @@
 
 function dif(num1,num2){
     if(num1===num2){
-    console.log("Sucesso")
+    console.log("São Iguais")
 }
 }   
 let num1 = prompt("Favor informar o numero:")
