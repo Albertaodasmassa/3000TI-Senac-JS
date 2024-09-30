@@ -10,6 +10,6 @@ switch(pok){
     console.log('Agua')
     break
     default:
-    console.log('Tipo de Pokemon não encontrado:')
+    console.log('O pokemom selecionado não existe:')
     break
 }
