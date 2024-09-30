@@ -1,4 +1,4 @@
-let turno = prompt("Selecione seu turno)
+let turno = prompt("Selecione seu turno:")
 switch(turno){
     case 'M':
     console.log('Matutino')
@@ -13,4 +13,3 @@ switch(turno){
     console.log('Turno não encontrado!!')
     break
 }
-
