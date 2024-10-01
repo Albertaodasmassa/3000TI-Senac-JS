@@ -19,7 +19,7 @@ switch (fruta) {
 }
 console.log("O preço da fruta ", fruta, " é ", "R$ ", preco)
 
-//Para que serve o código acima? O codigo acima e um case, o usuario seleciona o tipo de fruta e retorna o valor em RS.
+//Para que serve o código acima? O codigo acima e um case, o usuario seleciona o tipo de fruta e retorna o valor em RS, preço.
 //Qual será a mensagem impressa no console, se o valor de fruta for "Maçã" no console será "O preço da fruta será 2,25R$.
 // Considere que um usuário queira comprar uma Pêra, qual seria a mensagem impressa no console se retirássemos o break que está logo acima do default (o break indicado pelo comentário "BREAK PARA O ITEM c.")?Ele continuara executando.
 
