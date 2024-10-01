@@ -8,7 +8,7 @@ if(numero > 0) {
 console.log(mensagem)
 
 //O que a primeira linha está fazendo?Inserção de numero pelo usuario e esta convertendo para numero.
-//Considere um usuário digitou o número 10. Qual será a mensagem do terminal? E se fosse o número -10? Vai dar erro, pois mensagem não esta definido, abaixo codigo corrigido, falta um else.
+//Considere um usuário digitou o número 10. Qual será a mensagem do terminal? E se fosse o número -10? Vai dar erro, pois mensagem não esta definido, abaixo codigo corrigido, falta um else, se o usuario digitar 10 vai imprimir com erro.
 const numero = Number(prompt("Digite o primeiro número"))
 const mensagem = "Essa mensagem é secreta!!!"
 
