@@ -1,11 +1,13 @@
 const bixo = prompt("Quantos bixos de estimação voce tem?")
 const array = [""]
+const nome = prompt("Qual e seu nome")
 
+if(bixo===0){
+console.log("Que pena! Você pode adotar um pet!")
+} else{
+for(let i =0; i>=bixo; i+++)
+     nome = prompt("Qual e seu nome")
+      nome = prompt("Qual e seu nome")
+      nome = prompt("Qual e seu nome")
+}
 
-for(let i=0; bixo===0; i++){
-      let userbixo = bixo
-      if(bixo>0){
-       console.log(" Que pena! Você pode adotar um pet")
-       break
-      }
-   }
