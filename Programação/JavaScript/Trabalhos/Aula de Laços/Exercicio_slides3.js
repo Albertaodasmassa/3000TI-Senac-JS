@@ -1,9 +1,9 @@
 const array=["oi","sumido","tudo","bem","saudades"]
 
 function frase(array){
-const recfrase = array
-for(let recfrase of array){
-console.log(array)
+let recfrase = array
+for(let recfrase of array[0]){
+console.log(`${array[0]} ${array[1]} ${array[2]} ${array[3]} ${array[4]} `)
 
 }
 }
