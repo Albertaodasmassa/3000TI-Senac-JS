@@ -1,7 +1,10 @@
-const bixo = promt("Quantos bixos de estimação voce tem?")
-const bixouser = bixo
+const bixo = prompt("Quantos bixos de estimação voce tem?")
 const array = [""]
 
-while(bixo!==0){
-  console.log("Que pena! Você pode adotar um pet!")
-}
+
+for(let i=0; i++){
+      let userbixo = bixo
+      if(bixo>0){
+       console.log(" Que pena! Você pode adotar um pet")
+      }
+   }
