@@ -1,4 +1,4 @@
-const array=["oi","sumido","tudo","bem","saudades"]
+const array=["oi","sumido","tudo","bem?","saudades"]
 
 function frase(array){
 let recfrase = array
