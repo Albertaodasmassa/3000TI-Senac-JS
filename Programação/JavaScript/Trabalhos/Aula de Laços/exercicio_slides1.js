@@ -1,8 +1,8 @@
 let n1 = Number(prompt("Digite um Numero"))
-let soma = n1
+let soma = 0
 
 while(n1!==0){
-    soma+n1
-break
+n1 = Number(prompt("Digite um Numero")) 
+    soma=soma+n1
 }
 console.log("A soma total é:",soma);
