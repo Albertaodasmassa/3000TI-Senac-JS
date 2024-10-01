@@ -1,13 +1,13 @@
 const array=[11,15,18,14,12,13]
-function devmaior(array2){
-let devmaior = 0
+function devmaior(array){
+let maiorNum = 0
    for(let i=0; i<array.length; i++){
-      let nummaior = array2[i]
-      if(numatual>=nummaior){
-         nummaior=numatual
+      let numat = array[i]
+      if(numat >= maiorNum){
+       maiorNum = numat  
       }
    }
 
-console.log(`O maior numero será ${nummaior}`)
+console.log(`O maior numero será ${maiorNum}`)
 }
 devmaior(array)
