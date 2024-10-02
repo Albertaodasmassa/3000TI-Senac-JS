@@ -49,6 +49,7 @@ tetra(arrayog)
 
 let arrayog = [1,2,4,5,6,7,8]
 let maiornum = 0
+let menornum = 0
 function tetra(arrayog){
 for(let i = 0; i < arrayog.length; i++){
 let numatu = arrayog[i]
@@ -58,6 +59,12 @@ if(numatu>=maiornum){
 }
 console.log("O Maior Numero será",maiornum)
 }
+if(numatu<=menornum){
+ numatu=menornum
+}
+}
+console.log("O Maior Numero será",maiornum)
+
 tetra(arrayog)
 
 
