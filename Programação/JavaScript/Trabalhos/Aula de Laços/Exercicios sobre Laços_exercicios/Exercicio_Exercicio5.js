@@ -21,4 +21,15 @@ for(let i = 0; i < arrayog.length; i++){
 }
 tetra(arrayog)
 //Letra C exercicio 5.
+let arrayog = [1,2,4,5,6,7,8]
+
+function tetra(arrayog){
+for(let i = 0; i < arrayog.length; i++){
+    let receb = arrayog[i]%2
+    let receb2 = receb ===0
+    console.log(receb2)
+}
+}
+tetra(arrayog)
+
 
