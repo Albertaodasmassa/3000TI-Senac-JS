@@ -10,3 +10,4 @@ for(let i =0; i<=bixo; i++){
 }
 }
 console.log("O Nome são",array)
+
