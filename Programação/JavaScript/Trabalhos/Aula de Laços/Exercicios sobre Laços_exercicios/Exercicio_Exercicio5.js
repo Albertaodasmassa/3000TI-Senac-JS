@@ -45,6 +45,19 @@ tetra(arrayog)
 
 //Letra E exercicio 5.
 
+let arrayog = [1,2,4,5,6,7,8]
+let maiornum = 0
+function tetra(arrayog){
+for(let i = 0; i < arrayog.length; i++){
+let numatu = arrayog[i]
+if(numatu>=maiornum){
+    maiornum = numatu
+}
+}
+console.log("O Maior Numero será",maiornum)
+}
+tetra(arrayog)
+
 
 
 
