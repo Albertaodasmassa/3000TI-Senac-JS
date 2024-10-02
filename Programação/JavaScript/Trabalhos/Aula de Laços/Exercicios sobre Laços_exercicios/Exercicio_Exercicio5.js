@@ -31,4 +31,16 @@ for(let i = 0; i < arrayog.length; i++){
 }
 tetra(arrayog)
 
+//Letra D exercicio 5.
+
+let arrayog = ["Pao","batata","feijao","arroz",7]
+
+function tetra(arrayog){
+for(let i = 0; i < arrayog.length; i++){
+    let receb = arrayog[i]
+    console.log(receb)
+}
+}
+tetra(arrayog)
+
 
