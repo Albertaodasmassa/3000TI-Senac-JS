@@ -47,6 +47,7 @@ tetra(arrayog)
 
 //Letra E exercicio 5.
 
+
 let arrayog = [1,20,40,50,60,70,80]
 let maiornum = 0
 let menornum = 0
@@ -57,11 +58,11 @@ if(numatu>maiornum){
     maiornum = numatu
 }
 if(numatu<menornum){
-    menornum = numatu
+  menornum = numatu
 }
 }
-console.log("O Maior Numero será",maiornum)
-console.log("O Maior Numero será",menornum)
+console.log("O maior número é:",maiornum,"e o menor é",menornum)
+
 }
 
 tetra(arrayog)
