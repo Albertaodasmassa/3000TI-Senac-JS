@@ -33,14 +33,16 @@ tetra(arrayog)
 
 //Letra D exercicio 5.
 
-let arrayog = ["Pao","batata","feijao","arroz",7]
+let arrayog = ["Pao","batata","feijao","arroz"]
 
 function tetra(arrayog){
 for(let i = 0; i < arrayog.length; i++){
     let receb = arrayog[i]
-    console.log(receb)
+    console.log("O elemento do índex", i ,"é:", "numero",arrayog[i])
 }
 }
 tetra(arrayog)
+
+
 
 
