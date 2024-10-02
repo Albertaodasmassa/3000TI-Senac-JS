@@ -1,5 +1,5 @@
 let bixo = Number(prompt("Quantos bixos de estimação voce tem?"))
-let array = [""]
+let array = []
 
 if(bixo===0){
 console.log("Que pena! Você pode adotar um pet!")
@@ -10,6 +10,3 @@ for(let i =0; i<=bixo; i++){
 }
 }
 console.log("O Nome são",array)
-
-
-
