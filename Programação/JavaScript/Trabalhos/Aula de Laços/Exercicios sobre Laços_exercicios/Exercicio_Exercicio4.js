@@ -5,10 +5,11 @@ if(bixo===0){
 console.log("Que pena! Você pode adotar um pet!")
 } else{
 for(let i =0; i<=bixo; i++){
-     nome = prompt("Qual o nome do pet")
+     nome = prompt("Qual o nome do pet: ")
      array.push(nome)
-     console.log("O Nome são",array)
 }
+ console.log("O Nome são",array)
+ 
 }
 
 
