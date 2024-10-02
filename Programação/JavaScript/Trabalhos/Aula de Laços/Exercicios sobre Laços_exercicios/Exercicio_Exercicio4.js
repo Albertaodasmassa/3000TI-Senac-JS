@@ -12,3 +12,4 @@ for(let i =0; i<=bixo; i++){
      nome = array
 }
 }
+console.log("O nome dos bixos de pelucia são",array)
