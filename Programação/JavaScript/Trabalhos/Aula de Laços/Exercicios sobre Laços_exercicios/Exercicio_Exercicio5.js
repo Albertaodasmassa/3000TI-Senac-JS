@@ -1,2 +1,6 @@
 let arrayog = [1,2,4,5,6,7,8]
-for(let i =0; i=>; i++)
+
+function(arrayog){
+for(let i =0; i=>arrayog; i++)
+}
+
