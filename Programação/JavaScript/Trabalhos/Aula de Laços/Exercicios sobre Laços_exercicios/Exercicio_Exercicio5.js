@@ -43,6 +43,10 @@ for(let i = 0; i < arrayog.length; i++){
 }
 tetra(arrayog)
 
+//Letra E exercicio 5.
+
+
+
 
 
 
