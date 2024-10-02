@@ -38,7 +38,7 @@ let arrayog = ["Pao","batata","feijao","arroz"]
 function tetra(arrayog){
 for(let i = 0; i < arrayog.length; i++){
     let receb = arrayog[i]
-    console.log("O elemento do índex", i ,"é:", "numero",arrayog[i])
+    console.log("O elemento do índex", i ,"é numero",arrayog[i])
 }
 }
 tetra(arrayog)
