@@ -48,17 +48,20 @@ tetra(arrayog)
 //Letra E exercicio 5.
 
 
-let arrayog = [1,20,40,50,60,70,80]
+
+let arrayog = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
 let maiornum = 0
-let menornum = 0
+let menornum = 100
 function tetra(arrayog){
 for(let i = 0; i < arrayog.length; i++){
+
 let numatu = arrayog[i]
+
 if(numatu>maiornum){
     maiornum = numatu
 }
 if(numatu<menornum){
-  menornum = numatu
+   menornum = numatu
 }
 }
 console.log("O maior número é:",maiornum,"e o menor é",menornum)
@@ -66,7 +69,4 @@ console.log("O maior número é:",maiornum,"e o menor é",menornum)
 }
 
 tetra(arrayog)
-
-
-
 
