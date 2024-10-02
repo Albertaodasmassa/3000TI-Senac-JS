@@ -3,13 +3,8 @@ let maiorN = 0
 
 function tetra(arrayog){
 for(let i = 0; i < arrayog.length; i++){
+    let receb = arrayog[i]
+    console.log(receb)
 }
-console.log(arrayog)
 }
-tetra(arrayog[0])
-tetra(arrayog[1])
-tetra(arrayog[2])
-tetra(arrayog[3])
-tetra(arrayog[4])
-
-
+tetra(arrayog)
