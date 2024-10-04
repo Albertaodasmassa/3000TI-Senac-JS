@@ -14,13 +14,14 @@ function cadfun(cidade){
 }
     function abri(abrigos){
     console.log=("=======Bem vindo a lista de Abrigos=======")
+    infoabrigo={
+        nomeabrigo:cadfun(nomecid)
+        cidadeabrigo:cadfun(enderecocid)
+        Endereçoabrigo:cadfun(telefone)
+        telefoneabrigo:cadfun(lotacao)
+    }
 }
-const abrigos ={
-nomeabg : [],
-cidadeabri:[],
-telefoneabri:[],
-lotacaoabg:[],
-}
+
 
 
 switch(cidade){
