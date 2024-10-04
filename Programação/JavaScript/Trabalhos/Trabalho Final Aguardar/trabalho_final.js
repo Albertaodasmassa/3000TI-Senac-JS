@@ -16,13 +16,14 @@ function cadfun(cidade){
 }
 switch(cidade){
   case 'cadastrar abrigo':
+  if(res==="sim"){
+  console.log("=====Bem vindo ao sistema de cadastro=====")}
+  else if(res!=="sim"){
+  }
   cadfun(cidade)
   break
   case 'listar abrigo':
-  console.log('Lista de Abrigos cadastrados')
-  if(res==="sim")
-      console.log("=====Bem vindo ao sistema de cadastro=====")
-   listabrigo(infoabrigo)
+ console.log('Essa e a Lista de Abrigos existes.')
   break
   case 'procurar':
   console.log('Gostaria de Procurar os abrigos existentes')
