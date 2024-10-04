@@ -1,5 +1,6 @@
 let cidade = prompt("|cadastrar abrigo |listar abrigo|Procurar Abrigo|: ")
 let res = prompt("Gostaria de cadastrar um novo abrigo? Sim|Não")
+//Função para cadastrar novo abrigo.
 function cadfun(cidade){
     console.log("======================================")
     let nomecid = prompt("Qual e o nome da cidade que gostaria de cadastrar ?")
@@ -13,25 +14,15 @@ function cadfun(cidade){
     console.log("Informação cadastrada com sucesso.")
     console.log("====================================")
 }
-    function listabrigo(infoabrigo,cadfun){
-    console.log=("=======Bem vindo a lista de Abrigos=======")
-    infoabrigo={
-        ...cadfun
-        nomeabrigo:cadfun(nomecid),
-        cidadeabrigo:cadfun(enderecocid),
-        Endereçoabrigo:cadfun(telefone),
-        telefoneabrigo:cadfun(lotacao)
-    }
-}
 switch(cidade){
   case 'cadastrar abrigo':
   cadfun(cidade)
   break
   case 'listar abrigo':
-  console.log('Gostaria de Listar os abrigo existentes?')
+  console.log('Lista de Abrigos cadastrados')
   if(res==="sim")
       console.log("=====Bem vindo ao sistema de cadastro=====")
-   listabrigo(res)
+   listabrigo(infoabrigo)
   break
   case 'procurar':
   console.log('Gostaria de Procurar os abrigos existentes')
@@ -40,3 +31,4 @@ switch(cidade){
   console.log('Sair')
   break
 }
+//Menu de ações
