@@ -11,14 +11,33 @@ function cadfun(cidade){
     console.log("Informação cadastrada com sucesso:")
     console.log("====================================")
 }
+    function abri(abrigos){
+    console.log=("=======Bem vindo a lista de Abrigos=======")
+    let cadnomeabg = nomeabg.push(nomecid)
+    let cadcidadeabg = cidadeabri.push(enderecocid)
+    let cadtelabg = telefoneabri.push(telefone)
+    let lotacaocadabg = lotacao.push(lotacao)
+    const recabrigo = [abrigos.nomeabg]
+    const recabrigo2 = [abrigos.cidadeabri]
+    const recabrigo3 = [abrigos.telefoneabri]
+    const recabrigo4 = [abrigos.lotacao]
+}
+const abrigos ={
+nomeabg : [],
+cidadeabri:[],
+telefoneabri:[],
+lotacaoabg:[],
+}
+
+
 switch(cidade){
   case 'cadastrar abrigo':
   console.log('Gostaria de cadastrar um Novo Abrigo?')
   cadfun(cidade)
   break
-  case 'listar Abrigo':
+  case 'listar abrigo':
   console.log('Gostaria de Listar os abrigo existentes?')
-  abri(cidade)
+  abri(abrigos)
   break
   case 'procurar':
   console.log('Gostaria de Procurar os abrigos existentes')
@@ -29,22 +48,4 @@ switch(cidade){
 }
 
 
-const abrigos ={
-cadnomeabg : nomeabg.push(nomecid),
-nomeabg : [],
-cadcidadeabg : cidadeabri.push(enderecocid),
-cidadeabri:[],
-telefoneabri:[],
-cadtelabg : telefoneabri.push(telefone),
-lotacaoabg:[],
-lotacaocadabg : lotacao.push(lotacao),
-}
 
-function abri(abrigo){
-    console.log=("=======Bem vindo a lista de Abrigos=======")
-    const recabrigo = [abrigos.nomeabg]
-    const recabrigo2 = [abrigos.cidadeabri]
-    const recabrigo3 = [abrigos.telefoneabri]
-    const recabrigo4 = [abrigos.lotacao]
-}
-console.log(abri(abrigos))
