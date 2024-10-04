@@ -7,7 +7,8 @@ console.log("Que pena! Você pode adotar um pet!")
 for(let i =0; i<bixo; i++){
      nome = prompt("Qual o nome do pet: ")
      array.push(nome)
-     
 }
-console.log("O Nome são",array)
+}
+for (let i = 0; i < array.length; i++){
+console.log("O Nome são",array[i])
 }
