@@ -1,45 +1,25 @@
-let cidade = prompt("Selecione a cidade para cadastrar o Abrigo: ")
+let cidade = prompt("Selecione uma opcao/ cadastrar Abrigo /listar abrigo/Procurar Abrigo: ")
+function cadfun(cidade){
+    nomecid = ("Qual e o nome da cidade")
+}
+
 
 switch(cidade){
-  case '1':
-  console.log('Sao Leopoldo')
+  case 'cadastrar Abrigo':
+  console.log('Gostaria de cadastrar um Novo Abrigo?')
+  cadfun(cidade)
   break
-  case '2':
-  console.log('Sapiranga')
+  case 'listar Abrigo':
+  console.log('Gostaria de Listar os abrigo existentes?')
   break
-  case '3':
-  console.log('Canoas')
-  break
-  case '4':
-  console.log('Porto Algre')
-  break
-  case '5':
-  console.log('Viamao')
+  case 'procurar':
+  console.log('Gostaria de Procurar os abrigos existentes')
   break
   default:
-  console.log('Cidade não cadastrada: Gostaria de cadastrar?')
+  console.log('Sair')
   break
 }
 
- let abrigocad={
-  nomeabri: prompt("Qual e o nome do abrigo? "),
-  cidade:  prompt("Qual e o nome da cidade do abrigo? "),
-  numero: prompt("Qual e o numero do abrigo?  "),
-  endereco: prompt("Qual e o endereço da cidade?  ")
-
-}
-console.log("Novo abrigo Cadastrado com sucesso: ",abrigocad.nomeabri)
-console.log("Nova Cidade cadastrada com sucesso",abrigocad.cidade)
-console.log("Novo do abrigo cadastrado",abrigocad.numero)
-console.log("Novo endeço de abrigo cadastrado com sucesso: ",abrigocad.endereco)
-
-let abigoinfo={
-    ...abrigocad
-}
-console.log(`Os abrigos cadastrados são ${abrigocad.nomeabri}`)
-console.log(`Os abrigos cadastrados são ${abrigocad.cidade}`)
-console.log(`Os abrigos cadastrados são ${abrigocad.numero}`)
-console.log(`Os abrigos cadastrados são ${abrigocad.endereco}`)
 
 
 
