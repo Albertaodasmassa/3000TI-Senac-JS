@@ -1,4 +1,4 @@
-let cidade = prompt("Selecione a cidade para cadastrar o Abrigo")
+let cidade = prompt("Selecione a cidade para cadastrar o Abrigo: ")
 
 switch(cidade){
   case '1':
@@ -33,11 +33,14 @@ console.log("Nova Cidade cadastrada com sucesso",abrigocad.cidade)
 console.log("Novo do abrigo cadastrado",abrigocad.numero)
 console.log("Novo endeço de abrigo cadastrado com sucesso: ",abrigocad.endereco)
 
-let abigoinfo{
-    ...abr
+let abigoinfo={
+    ...abrigocad
 }
+console.log(`Os abrigos cadastrados são ${abrigocad.nomeabri}`)
+console.log(`Os abrigos cadastrados são ${abrigocad.cidade}`)
+console.log(`Os abrigos cadastrados são ${abrigocad.numero}`)
+console.log(`Os abrigos cadastrados são ${abrigocad.endereco}`)
 
-console.log(`No abrigo numero${numero}`)
 
 
 
