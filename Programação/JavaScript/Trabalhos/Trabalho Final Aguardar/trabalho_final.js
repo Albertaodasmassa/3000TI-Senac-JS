@@ -1,10 +1,14 @@
-let cidade = prompt("Selecione uma opcao/ cadastrar abrigo /listar abrigo/Procurar Abrigo: ")
+let cidade = prompt("Selecione uma opcao|cadastrar abrigo |listar abrigo|Procurar Abrigo|: ")
 function cadfun(cidade){
     console.log("======================================")
     let nomecid = prompt("Qual e o nome da cidade que gostaria de cadastrar ?")
     let enderecocid = prompt("Qual e endereco da cidade que gostaria de cadastrar? ")
-    console.log("Cidade Cadastrada com sucesso:",nomecid)
-    console.log("Endereço cadastrado com sucesso:",enderecocid)
+    let telefone = Number(prompt("Qual e o telefone do abrigo?"))
+    let lotacao = Number(prompt("Qual é a lotacao do abrigo?"))
+    console.log("Cidade Cadastrada com sucesso:")
+    console.log("Endereço cadastrado com sucesso:")
+    console.log("Telefone cadastrado com sucesso:")
+    console.log("Informação cadastrada com sucesso:")
     console.log("====================================")
 }
 switch(cidade){
@@ -26,11 +30,18 @@ switch(cidade){
 
 
 const abrigos ={
-nomeabg : [""]
+nomeabg : [],
+cidadeabri:[],
+telefoneabri:[],
+lotacao:[],
 }
 
 function abri(abrigo){
-    const resabrigo = [abrigos.nomeabg]
+    console.log=("=======Bem vindo a lista de Abrigos=======")
+    const recabrigo = [abrigos.nomeabg]
+    const recabrigo2 = [abrigos.cidadeabri]
+    const recabrigo3 = [abrigos.telefoneabri]
+    const recabrigo4 = [abrigos.lotacao]
 }
 console.log(abri(abrigos))
 
