@@ -30,10 +30,14 @@ switch(cidade){
 
 
 const abrigos ={
+cadnomeabg : nomeabg.push(nomecid),
 nomeabg : [],
+cadcidadeabg : cidadeabri.push(enderecocid),
 cidadeabri:[],
 telefoneabri:[],
-lotacao:[],
+cadtelabg : telefoneabri.push(telefone),
+lotacaoabg:[],
+lotacaocadabg : lotacao.push(lotacao),
 }
 
 function abri(abrigo){
@@ -44,5 +48,3 @@ function abri(abrigo){
     const recabrigo4 = [abrigos.lotacao]
 }
 console.log(abri(abrigos))
-
-
