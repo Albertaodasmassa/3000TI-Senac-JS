@@ -1,10 +1,11 @@
 let opcao = prompt("1-Cadastrar Abrigo\n2-Listar Abrigo\n3-procurar abrigo\n4-Sair\nEscolha Uma opcao:")
 let res = prompt("Gostaria de cadastrar um abrigo?\n")
- let listabrigo = []
+let listabrigo = []
 //Menu de ações
 switch(opcao){
   case '1':
   cadfun(opcao)
+  console.log("Esse e o Abrigo cadastrado",listabrigo)
   break
   case '2':
  if(res==="sim"){
