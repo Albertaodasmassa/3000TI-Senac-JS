@@ -1,7 +1,9 @@
 let opcao = prompt("1-Cadastrar Abrigo\n2-Listar Abrigo\n3-procurar abrigo\n4-Sair\nEscolha Uma opcao:")
 let res = prompt("Gostaria de cadastrar um abrigo?\n")
-let listabrigo = []
+let listabrigo = []]
+let i = 0
 //Menu de ações
+while(opcao!==4){
 switch(opcao){
   case '1':
   cadfun(opcao)
@@ -23,6 +25,7 @@ switch(opcao){
   default:
   console.log('Sair')
   break
+}
 }
 function cadfun(opcao){
     console.log("======================================")
