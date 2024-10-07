@@ -32,7 +32,7 @@ function cadfun(){
         Cidade: nomecid,
         Endereco: enderecocid,
         Telefone: telefone,
-        LotaçãodePessoas:lotacao
+        Capacidade:lotacao
         
     }
     listabrigo.push(listeste)
