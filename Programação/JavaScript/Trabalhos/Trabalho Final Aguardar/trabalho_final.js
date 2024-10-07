@@ -2,22 +2,14 @@ let opcao = prompt("1-Cadastrar Abrigo\n2-Listar Abrigo\n3-procurar abrigo\n4-Sa
 let listabrigo = []
 
 //Menu de ações
-
 while(opcao!=='4'){
 switch(opcao){
   case '1':
-  cadfun(opcao)
+  cadfun()
   break
   case '2':
-  let res = prompt("Gostaria de cadastrar um abrigo?\n")
- if(res==="sim"){
-  console.log("=Bem vindo ao sistema de cadastro=")}
-  else if(res!=="sim"){
-  console.log("Deseja Voltar ao menu principal?")
-  break
-  }else{
-  console.log('Essa e a Lista de Abrigos existes:',listabrigo)
-  }
+  alert("Lista de Abrigos já cadastrados",listabrigo)
+  console.log("Não localizou o abrigo,Gostaria de cadastrar?")
   break
   case '3':
   console.log('Gostaria de Procurar os abrigos existentes')
@@ -29,9 +21,10 @@ switch(opcao){
   console.log('Opção Invalida!!!!')
   break
 }
+opcao = prompt("1-Cadastrar Abrigo\n2-Listar Abrigo\n3-procurar abrigo\n4-Sair\nEscolha Uma opcao:")
 }
-function cadfun(opcao){
-    console.log("======================================")
+
+function cadfun(){
     const nomecid = prompt("Qual e o nome da cidade que gostaria de cadastrar ?")
     const enderecocid = prompt("Qual e endereco da cidade que gostaria de cadastrar? ")
     const telefone = Number(prompt("Qual e o telefone do abrigo?"))
