@@ -27,6 +27,7 @@ switch(cidade){
   if(res==="sim"){
   console.log("=Bem vindo ao sistema de cadastro=")}
   else if(res!=="sim"){
+  console.log("Deseja Voltar ao menu principal?")
   }else{
   console.log("Opcao Não disponivel)
   }
