@@ -22,7 +22,7 @@ switch(opcao){
 }
 opcao = prompt("1-Cadastrar Abrigo\n2-Listar Abrigo\n3-procurar abrigo\n4-Sair\nEscolha Uma opcao:")
 }
-
+//Funcao de cadastro!!
 function cadfun(){
     let nomecid = prompt("Qual e o nome da cidade que gostaria de cadastrar ?")
     let enderecocid = prompt("Qual e endereco da cidade que gostaria de cadastrar? ")
@@ -38,10 +38,12 @@ function cadfun(){
     listabrigo.push(listeste)
    
 }
+//Função de listar Abrigo
 function infoabrigo(){
    for(let i=0;i<listabrigo.length; i++)
    alert("Os abrigos cadastrados são",listabrigo[i])
 }
+//Função de Procurar Abrigo
 function procurabrigo(listteste){
 let cidcadastrada = cidade
  if(listabrigo===){
