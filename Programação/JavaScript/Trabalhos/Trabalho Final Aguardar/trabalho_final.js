@@ -11,6 +11,7 @@ switch(opcao){
   infoabrigo(listabrigo)
   break
   case '3':
+  procurabrigo()
   console.log('Procurar Abrigos existentes')
   break
   case '4':
