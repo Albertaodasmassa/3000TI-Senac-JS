@@ -1,6 +1,5 @@
 let opcao = prompt("1-Cadastrar Abrigo\n2-Listar Abrigo\n3-procurar abrigo\n4-Sair\nEscolha Uma opcao:")
 let listabrigo = []
-
 //Menu de ações
 while(opcao!=='4'){
 switch(opcao){
@@ -8,7 +7,7 @@ switch(opcao){
   cadfun()
   break
   case '2':
-  infoabrigo(listabrigo)
+  infoabrigo()
   break
   case '3':
   procurabrigo()
@@ -43,6 +42,7 @@ function infoabrigo(){
    for(let i=0;i<listabrigo.length; i++)
    alert("Os abrigos cadastrados são",listabrigo[i])
 }
-function procurabrigo(){
-    
+function procurabrigo(listteste){
+let cidcadastrada = cidade
+ if(cidade) 
 }
