@@ -1,5 +1,28 @@
-//Comandos iniciais para selecionar as ações do menu...
-let cidade = prompt("cadastrar abrigo |listar abrigo|Procurar Abrigo| ")
+let opcao = prompt("1-Cadastrar Abrigo\n2-Listar Abrigo\n3-procurar abrigo\n4-Sair")
+
+//Menu de ações
+switch(opcao){
+  case 'cadastrar abrigo':
+  if(res==="sim"){
+  console.log("=Bem vindo ao sistema de cadastro=")}
+  else if(res!=="sim"){
+  console.log("Deseja Voltar ao menu principal?")
+  }else{
+  console.log("Opcao Não disponivel")
+  }
+  cadfun(cidade)
+  break
+  case 'listar abrigo':
+ console.log('Essa e a Lista de Abrigos existes.')
+  break
+  case 'procurar':
+  console.log('Gostaria de Procurar os abrigos existentes')
+  break
+  default:
+  console.log('Sair')
+  break
+}
+
 let res = prompt("Gostaria de cadastrar um novo abrigo? Sim|Não")
 infoabrigo={
     nomeabrigo:[],
@@ -8,7 +31,7 @@ infoabrigo={
     lotacaopessoas:[],
 }
 //Função para cadastrar novo abrigo.
-function cadfun(cidade,infoabrigo){
+function cadfun(infoabrigo){
     console.log("======================================")
     let nomecid = prompt("Qual e o nome da cidade que gostaria de cadastrar ?")
     let enderecocid = prompt("Qual e endereco da cidade que gostaria de cadastrar? ")
@@ -29,7 +52,7 @@ switch(cidade){
   else if(res!=="sim"){
   console.log("Deseja Voltar ao menu principal?")
   }else{
-  console.log("Opcao Não disponivel)
+  console.log("Opcao Não disponivel")
   }
   cadfun(cidade)
   break
