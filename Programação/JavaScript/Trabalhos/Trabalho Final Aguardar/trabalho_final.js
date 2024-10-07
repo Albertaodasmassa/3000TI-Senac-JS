@@ -7,7 +7,6 @@ while(opcao!=='4'){
 switch(opcao){
   case '1':
   cadfun(opcao)
-  console.log("Esse e o Abrigo cadastrado",listabrigo)
   break
   case '2':
   let res = prompt("Gostaria de cadastrar um abrigo?\n")
@@ -17,7 +16,7 @@ switch(opcao){
   console.log("Deseja Voltar ao menu principal?")
   break
   }else{
-  console.log('Essa e a Lista de Abrigos existes.',listabrigo)
+  console.log('Essa e a Lista de Abrigos existes:',listabrigo)
   }
   break
   case '3':
@@ -41,10 +40,4 @@ function cadfun(opcao){
     listabrigo.push(enderecocid)
     listabrigo.push(telefone)
     listabrigo.push(lotacao)
-    console.log("======================================")
-    console.log("Cidade Cadastrada com sucesso.")
-    console.log("Endereço cadastrado com sucesso.")
-    console.log("Telefone cadastrado com sucesso.")
-    console.log("Informação cadastrada com sucesso.")
-    console.log("====================================")
 }
