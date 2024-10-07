@@ -11,7 +11,7 @@ switch(opcao){
   infoabrigo(listabrigo)
   break
   case '3':
-  console.log('Gostaria de Procurar os abrigos existentes')
+  console.log('Procurar Abrigos existentes')
   break
   case '4':
   console.log('Sair')
@@ -41,4 +41,7 @@ function cadfun(){
 function infoabrigo(){
    for(let i=0;i<listabrigo.length; i++)
    alert("Os abrigos cadastrados são",listabrigo[i])
+}
+function procurabrigo(){
+    
 }
