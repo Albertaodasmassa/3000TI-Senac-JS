@@ -28,14 +28,17 @@ function cadfun(){
     const enderecocid = prompt("Qual e endereco da cidade que gostaria de cadastrar? ")
     const telefone = Number(prompt("Qual e o telefone do abrigo?"))
     const lotacao = Number(prompt("Qual é a lotacao do abrigo em pessoas?"))
-    listabrigo.push(nomecid)
-    listabrigo.push(enderecocid)
-    listabrigo.push(telefone)
-    listabrigo.push(lotacao)
+    listeste={
+        nomecid: nomecid,
+        teste: enderecocid,
+        teste2: telefone,
+        teste4:lotacao,
+        
+    }
+    listabrigo.push(listeste)
+   
 }
-function infoabrigo(cadfun){
-    const nomeabrigo = nomecid
-    const enderecoabrigo = enderecocid
-    const telabrigo = telefone
-    const lotacao2 = locatacao
+function infoabrigo(){
+   for(let i=0;i>listabrigo.length; i++)
+   alert("Os abrigos cadastrados são",listabrigo[i])
 }
