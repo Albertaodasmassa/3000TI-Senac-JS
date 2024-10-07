@@ -1,15 +1,16 @@
 let opcao = prompt("1-Cadastrar Abrigo\n2-Listar Abrigo\n3-procurar abrigo\n4-Sair\nEscolha Uma opcao:")
-let res = prompt("Gostaria de cadastrar um abrigo?\n")
-let listabrigo = []]
-let i = 0
+let listabrigo = []
+
 //Menu de ações
-while(opcao!==4){
+
+while(opcao!=='4'){
 switch(opcao){
   case '1':
   cadfun(opcao)
   console.log("Esse e o Abrigo cadastrado",listabrigo)
   break
   case '2':
+  let res = prompt("Gostaria de cadastrar um abrigo?\n")
  if(res==="sim"){
   console.log("=Bem vindo ao sistema de cadastro=")}
   else if(res!=="sim"){
@@ -22,8 +23,11 @@ switch(opcao){
   case '3':
   console.log('Gostaria de Procurar os abrigos existentes')
   break
-  default:
+  case '4':
   console.log('Sair')
+  break
+  default:
+  console.log('Opção Invalida!!!!')
   break
 }
 }
