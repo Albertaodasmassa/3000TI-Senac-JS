@@ -44,5 +44,6 @@ function infoabrigo(){
 }
 function procurabrigo(listteste){
 let cidcadastrada = cidade
- if(cidade) 
+ if(listabrigo===){
+ } else
 }
