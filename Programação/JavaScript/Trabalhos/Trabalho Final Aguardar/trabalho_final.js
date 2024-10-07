@@ -8,7 +8,7 @@ switch(opcao){
   cadfun()
   break
   case '2':
-  infoabrigo()
+  infoabrigo(listabrigo)
   break
   case '3':
   console.log('Gostaria de Procurar os abrigos existentes')
@@ -32,7 +32,7 @@ function cadfun(){
         nomecid: nomecid,
         teste: enderecocid,
         teste2: telefone,
-        teste4:lotacao,
+        teste4:lotacao
         
     }
     listabrigo.push(listeste)
