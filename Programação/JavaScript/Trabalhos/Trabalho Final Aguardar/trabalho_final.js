@@ -27,6 +27,8 @@ switch(cidade){
   if(res==="sim"){
   console.log("=Bem vindo ao sistema de cadastro=")}
   else if(res!=="sim"){
+  }else{
+  console.log("Opcao Não disponivel)
   }
   cadfun(cidade)
   break
