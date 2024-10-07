@@ -1,3 +1,4 @@
+//Comandos iniciais para selecionar as ações do menu...
 let cidade = prompt("cadastrar abrigo |listar abrigo|Procurar Abrigo| ")
 let res = prompt("Gostaria de cadastrar um novo abrigo? Sim|Não")
 infoabrigo={
