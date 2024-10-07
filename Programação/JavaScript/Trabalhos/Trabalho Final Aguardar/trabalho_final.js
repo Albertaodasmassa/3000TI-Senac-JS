@@ -8,8 +8,7 @@ switch(opcao){
   cadfun()
   break
   case '2':
-  alert("Lista de Abrigos já cadastrados",listabrigo)
-  console.log("Não localizou o abrigo,Gostaria de cadastrar?")
+  infoabrigo()
   break
   case '3':
   console.log('Gostaria de Procurar os abrigos existentes')
@@ -33,4 +32,10 @@ function cadfun(){
     listabrigo.push(enderecocid)
     listabrigo.push(telefone)
     listabrigo.push(lotacao)
+}
+function infoabrigo(cadfun){
+    const nomeabrigo = nomecid
+    const enderecoabrigo = enderecocid
+    const telabrigo = telefone
+    const lotacao2 = locatacao
 }
