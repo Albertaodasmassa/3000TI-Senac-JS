@@ -54,10 +54,11 @@ for(let i=0;i<listabrigo.length; i++){
 }
 if(novo.length===0){
     alert("Cidade não cadastrada.")
-}
 }else{
-    for(let i=0;i<novo.length; i++){
+for(let i=0;i<novo.length; i++){
 alert(`==Listar de Abrigos cadastrados==\nNome da Cidade:${novo[i].Cidade}\nEndereço:${novo[i].Endereco}\nTelefone do Abrigo:${novo[i].Telefone}\nCapacidade do Abrigo:${novo[i].Capacidade}\n=======`)
 }
 }
 }
+
+
