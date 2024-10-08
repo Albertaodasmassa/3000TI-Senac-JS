@@ -41,7 +41,7 @@ function cadfun(){
 //Função de listar Abrigo
 function infoabrigo(){
    for(let i=0;i<listabrigo.length; i++)
-   alert("Os abrigos cadastrados são",listabrigo[i])
+   alert(`=====Listar de Abrigos cadastrados====\nNome da cidade:${listeste.Cidade}\nEndereço:${listeste.Endereco}\nTelefone do Abrigo${listeste.Telefone}\nCapacidade do Abrigo:${listeste.Capacidade}\n=======`)
 }
 //Função de Procurar Abrigo
 function procurabrigo(){
