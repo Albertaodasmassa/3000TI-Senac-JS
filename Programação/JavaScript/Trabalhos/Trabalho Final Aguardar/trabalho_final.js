@@ -39,8 +39,9 @@ function cadfun(){
 }
 //Função de listar Abrigo
 function infoabrigo(){
-   for(let i=0;i<listabrigo.length; i++)
-   alert(`=====Listar de Abrigos cadastrados====\nNome da cidade:${listeste.Cidade}\nEndereço:${listeste.Endereco}\nTelefone do Abrigo:${listeste.Telefone}\nCapacidade do Abrigo:${listeste.Capacidade}\n=======`)
+   for(let i=0;i<listabrigo.length; i++){
+   alert(`==Listar de Abrigos cadastrados==\nNome da Cidade:${listabrigo[i].Cidade}\nEndereço:${listabrigo[i].Endereco}\nTelefone do Abrigo:${listabrigo[i].Telefone}\nCapacidade do Abrigo:${listabrigo[i].Capacidade}\n=======`)
+}
 }
 //Função de Procurar Abrigo
 function procurabrigo(){
