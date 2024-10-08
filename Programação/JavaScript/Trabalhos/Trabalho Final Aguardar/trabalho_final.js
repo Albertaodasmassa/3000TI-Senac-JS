@@ -44,8 +44,11 @@ function infoabrigo(){
    alert("Os abrigos cadastrados são",listabrigo[i])
 }
 //Função de Procurar Abrigo
-function procurabrigo(listteste){
-let cidcadastrada = cidade
- if(listabrigo===){
+function procurabrigo(listabrigo){
+let cidcadastrada = prompt("Por favor insira a cidade que quer procurar:")
+for(let i=0;i<listabrigo.length; i++)
+ if(cidcadastrada===listabrigo[i].Cidade){
+     alert("O nome da cidade é")
  } else
+ alert("Não cadastrado")
 }
