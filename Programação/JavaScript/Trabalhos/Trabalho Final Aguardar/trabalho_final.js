@@ -46,10 +46,11 @@ function infoabrigo(){
 //Função de Procurar Abrigo
 function procurabrigo(){
 const cidcadastrada = prompt("Por favor insira a cidade que quer procurar:")
-for(let i=0;i<listabrigo.length; i++)
+const novo = []
+for(let i=0;i<novo.length; i++){
  if(cidcadastrada===listabrigo[i].Cidade){
-     alert(`=====Listar de Abrigos cadastrados====\nNome da cidade:${listeste.Cidade}\nEndereço:${listeste.Endereco}\nTelefone do Abrigo:${listeste.Telefone}\nCapacidade do Abrigo:${listeste.Capacidade}\n=======`)
- } else{
- alert("Abrigo Não cadastrado!!!!!")
+     listabrigo.push(novo)
+      alert(`==Listar de Abrigos cadastrados==\nNome da Cidade:${novo[i].Cidade}\nEndereço:${novo[i].Endereco}\nTelefone do Abrigo:${novo[i].Telefone}\nCapacidade do Abrigo:${novo[i].Capacidade}\n=======`)
+}
 }
 }
