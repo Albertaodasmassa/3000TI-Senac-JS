@@ -11,13 +11,12 @@ switch(opcao){
   break
   case '3':
   procurabrigo()
-  console.log('Procurar Abrigos existentes')
   break
   case '4':
-  console.log('Sair')
+  alert('Sair')
   break
   default:
-  console.log('Opção Invalida!!!!')
+  alert('Opção Invalida!!!!')
   break
 }
 opcao = prompt("1-Cadastrar Abrigo\n2-Listar Abrigo\n3-procurar abrigo\n4-Sair\nEscolha Uma opcao:")
@@ -41,14 +40,14 @@ function cadfun(){
 //Função de listar Abrigo
 function infoabrigo(){
    for(let i=0;i<listabrigo.length; i++)
-   alert(`=====Listar de Abrigos cadastrados====\nNome da cidade:${listeste.Cidade}\nEndereço:${listeste.Endereco}\nTelefone do Abrigo${listeste.Telefone}\nCapacidade do Abrigo:${listeste.Capacidade}\n=======`)
+   alert(`=====Listar de Abrigos cadastrados====\nNome da cidade:${listeste.Cidade}\nEndereço:${listeste.Endereco}\nTelefone do Abrigo:${listeste.Telefone}\nCapacidade do Abrigo:${listeste.Capacidade}\n=======`)
 }
 //Função de Procurar Abrigo
 function procurabrigo(){
 const cidcadastrada = prompt("Por favor insira a cidade que quer procurar:")
 for(let i=0;i<listabrigo.length; i++)
  if(cidcadastrada===listabrigo[i].Cidade){
-     alert("As Informações do Abrigo são",listabrigo)
+     alert(`=====Listar de Abrigos cadastrados====\nNome da cidade:${listeste.Cidade}\nEndereço:${listeste.Endereco}\nTelefone do Abrigo:${listeste.Telefone}\nCapacidade do Abrigo:${listeste.Capacidade}\n=======`)
  } else{
  alert("Abrigo Não cadastrado!")
 }
