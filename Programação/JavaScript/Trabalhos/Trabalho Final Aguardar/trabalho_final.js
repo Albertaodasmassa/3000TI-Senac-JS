@@ -1,3 +1,4 @@
+//Variaveis de entrada
 let opcao = prompt("1-Cadastrar Abrigo\n2-Listar Abrigo\n3-procurar abrigo\n4-Sair\nEscolha Uma opcao:")
 let listabrigo = []
 //Menu de ações
